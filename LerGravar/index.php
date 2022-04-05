@@ -13,8 +13,21 @@
 
 function Gravar(string $texto, string $arquivo){
     $fp = fopen($arquivo, "a+");
-    fwrite($fp, $texto);
+    fwrite($fp, "{$texto} \r\n");
     fclose($fp);
 } 
 
-Gravar("Persistencia em arquivo texto!!!", "file.txt");
+Gravar(date("d/m/Y H:i:s"), "file.txt");
+
+function Leitura(string $arquivo){
+    $fp = fopen($arquivo, "r");
+    $texto = fread($fp, filesize($arquivo));
+    fclose($fp);
+    return $texto;
+}
+
+// VALOR RETORNADO --> retorna o tamanho do arquivo em bytes, ou false (e gera um erro de nível E_WARNING) em caso de erro
+// OBS: por conta do tipo inteiro do PHP ser sinalizado em muitas plataformas 32bits, algumas funções de arquivos podem retornar resultados inesperados para arquivos maiores que 2gb
+
+
+echo Leitura("file.txt");
