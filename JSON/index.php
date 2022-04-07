@@ -26,4 +26,18 @@ https://jsonformatter.curiousconcept.com/
 }
 
 */
+
+$arrayFilme = array(
+    "titulo" => "titanic",
+    "sinopse" => "Um navio colide com um iceberg e afunda",
+    "ano" => 2017,
+    "horarios" => array("16:00" , "19:00" , "20:00"
+    )
+);
+
+//var_dump($arrayFilme);
+
+//Convertendo array em JSON
+$jsonStr = json_encode($arrayFilme);
+echo $jsonStr;
 ?>
