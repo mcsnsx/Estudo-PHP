@@ -1,0 +1,7 @@
+<?php
+
+echo "AJAX";
+
+//NÃO SE USA <BR>, ESTOU USANDO AQUI PARA FINS EDUCACIONAIS
+
+?>
