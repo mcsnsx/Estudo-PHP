@@ -65,6 +65,11 @@ echo ($sexo);
 
 echo "<br>";
 
+//Puxa todas as caracteristcas da variável
+var_dump ($nome);
+
+echo "<br>";
+
 //tipo double
 $salario = 3.500;
 echo gettype($salario);
@@ -76,3 +81,7 @@ echo "<br>";
 $valido = true;
 echo gettype($valido);
 echo($valido);
+
+//tipo nulo e vazio
+$nulo = NULL;
+$vazio = "";
