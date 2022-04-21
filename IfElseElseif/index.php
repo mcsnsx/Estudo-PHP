@@ -9,6 +9,7 @@ echo "<br><br>";
 $idade = 18;
 $senha = "1234";
 $acesso = true;
+$qualASuaIdade = 100;
 
 if($idade >= 18){
     echo "Okay";
@@ -88,6 +89,11 @@ if(!$acesso){
 } else {
     echo "Invalido";
 }
+
+echo "<br><br>";
+
+//operador ternário -> if e else de uma linha só
+echo ($qualASuaIdade < $idade)?"Menor de idade":"Maior de idade";
 
 ?>
 
