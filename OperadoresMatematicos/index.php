@@ -46,8 +46,47 @@ echo"<br>";
 $divisao = 5 / 2;
 echo $divisao;
 
-echo"<br>";
+echo"<br><br>";
+
+echo "OPERADORES ADITMÉTICOS";
+
+echo"<br><br>";
+
+$a = 10;
+$b = 2;
+
+//soma de variáveis
+echo $a + $b;
+
+echo"<br><br>";
+
+//subtração de variáveis
+echo $a - $b;
+
+echo"<br><br>";
+
+//multiplicação de variáveis
+echo $a * $b;
+
+echo"<br><br>";
+
+//divisão de variáveis
+echo $a / $b;
+
+echo"<br><br>";
+
+//modulo - restante de uma divisão de variáveis
+echo $a % $b;
+
+echo"<br><br>";
+
+//exponenciação de variáveis (um numero elevado a outro / ao quadrado)
+echo $a ** $b;
+
+echo"<br><br>";
 ?>
+
+
 
 <!DOCTYPE html>
 <html>
