@@ -5,6 +5,7 @@
 echo "FUNÇÕES";
 
 echo "<br><br>";
+//O escopo é definido pelas chaves '{}', fora delas temos o scopo global
 
 //Função simples
 function Ola (){
@@ -35,6 +36,29 @@ function Ajuste ($p1, $p2){
 }
 
 echo "<br><br>";
+
+//GLOBAL -> para um variável que foi declarada dentro de uma funções poder ser lida fora do escopo da função, é necessário que ela seja declarada como uma variável global
+$nomeGlobal = "Mac";
+
+function teste(){
+    global $nomeGlobal;
+    echo $nomeGlobal;
+}
+
+teste();
+
+echo "<br><br>";
+
+//só vai funcionar caso eu declare a variável entro do escopo da função
+function teste2(){
+  //global $nomeGlobal;
+    echo $nomeGlobal . " agora no teste 2!";
+}
+
+teste2();
+
+echo "<br><br>";
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
