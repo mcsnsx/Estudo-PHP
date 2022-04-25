@@ -24,3 +24,36 @@ if($idade >= min && $idade <= max){     //Validação da idade
 echo "<br>";
 
 echo "<br>" . PHP_VERSION; //constante pré-definida que mostra a versão do PHP
+
+echo "<br><br>";
+
+echo DIRECTORY_SEPARATOR; //tras a barra de diretorio
+
+echo "<br><br>";
+
+echo "EXEMPLO 2";
+
+echo "<br><br>";
+
+define ("SERVIDOR", "127.0.0.1");
+
+echo SERVIDOR;
+
+echo "<br><br>";
+
+echo "EXEMPLO 3  - CONSTANTE COMO UM ARRAY";
+
+echo "<br><br>";
+
+define ("BANCO_DE_DADOS", [
+    '127.0.0.1',
+    'root',
+    'password',
+    'test'
+]);
+
+print_r (BANCO_DE_DADOS);
+
+//É uma boa pratica declarar as constantes com letras maiusculas
+
+?>
