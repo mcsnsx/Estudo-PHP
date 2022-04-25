@@ -15,8 +15,9 @@ $_SESSION["key"] = date("H:i:s");
 
 echo $_SESSION["key"];
 
+echo "<br><br>";
+
 //$_SESSION["nome"]= ---> cria uma sessão e atribui um valor a ela.
-
-
+$_SESSION ["nome"] = "Hcode";
 
 ?>
