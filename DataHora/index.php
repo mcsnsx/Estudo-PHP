@@ -84,4 +84,17 @@ echo "<br><br>";
 $ts = strtotime("+1 week");
 echo date ("l, d/m/Y", $ts);
 
+echo "<br><br>";
+
+echo "TRAZENDO DATA E HORA EM PORTUGUES";
+
+echo "<br><br>";
+
+setlocale(LC_ALL, "pt_BR", "pt_BR.utf-8", "portuguese");
+
+//'%A' ---> dia da semana
+//'%B' ---> mes 
+echo strftime("%A %B");
+
+echo ucwords (strftime("%A %B"));
 ?>
