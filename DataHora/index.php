@@ -30,7 +30,7 @@ echo date("h:i:s");
 echo "<br><br>";
 
 //Método 2
-echo date("d/m/y h:i:s");
+echo date("d/m/y h:i:s", 1650982185);
 //      dia/mes/ano hora/min/seg
 
 echo "<br><br>";
@@ -52,3 +52,36 @@ if($hora > 0 && $hora <=4){
 }else {
     echo "Hora não informada!";
 }
+
+echo "<br><br>";
+
+//Quantidade de segundo de 01/01/1970 até agora
+//Essa data é o marco zero do sistema de calendarios usados pelo sistema Unix/Posix
+//O PHP é baseado na linguagem C# e por extensão no sistema Unix, por isso usa o time stamp como referencia
+echo time();
+
+echo "<br><br>";
+
+//Converte uma string para time stamp ---> mostra a quantidade de segundos até aquele momento
+echo strtotime("2001-09-11");
+
+echo "<br><br>";
+
+$ts = strtotime("2001-09-11");
+echo date ("l, d/m/Y", $ts);
+
+echo "<br><br>";
+
+//Sempre é possivel acrescentar valores dentro dos parametros do 'strtotime' para manipular a data ou a hora
+
+//mostra a data de amanhã
+$ts = strtotime("+1 day");
+echo date ("l, d/m/Y", $ts);
+
+echo "<br><br>";
+
+//mostra a data daqui a uma semana
+$ts = strtotime("+1 week");
+echo date ("l, d/m/Y", $ts);
+
+?>
