@@ -40,4 +40,28 @@ function AjustarSalario ($sal, &$valorAjuste){
 $valorFinal = AjustarSalario($salario, $valorAjuste);
 echo "O valor ajustado é de: <b>R$ {$valorFinal}</b>, com aumento de: <b>R$ {$valorAjuste}</b>.";
 
+echo "<br><br>";
+
+//declaração de tipos escalares
+function soma(int ... $valores){
+    return array_sum ($valores);
+}
+
+echo soma(2,2) . "<br>";
+echo soma(25,33) . "<br>";
+echo soma(1.7,3.2) . "<br>"; //ele ignnora numeros flutuantes
+
+echo "<br><br>";
+
+//declaração de outros tipos de dados
+function soma1(float ... $valores):string{
+    return array_sum ($valores);
+}
+
+echo var_dump (soma1(2,2)) . "<br>";
+echo soma1(25,33) . "<br>";
+echo soma1(1.7,3.2) . "<br>";
+
+echo "<br><br>";
+
 ?>
