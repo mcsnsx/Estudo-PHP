@@ -5,7 +5,7 @@
 
 * Armezenar os códigos usados para aprender PHP;
 * Linguagem : PHP;
-* Ferramenta: Vs Code;
+* Ferramenta: Xampp e Vs Code;
 
 <hr>
 
