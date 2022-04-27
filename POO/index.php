@@ -81,3 +81,13 @@ echo "<b>Quem pode acessar atributos e metodos?</b>
       Quando é público, todo mundo vê. Quando é protegido, só se ve na
       propria classe ou nas herdeiras. Quando é privado, só se ve na 
       pripria classe."
+;
+
+echo "<br><br>";
+
+echo "<b>Para que serve uma Interface?</b>
+      <p>Pode ser usada para organizar o código, é onde definimos padrões,
+      que vai ser aplicado em diferentes situações para que esses padrões
+      sejam aplicados. A interface diz quais os métodos devem existir, qual
+      o tipo de declaração deles e quais parametros devem receber."
+;
