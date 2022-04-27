@@ -56,3 +56,20 @@ echo "<br><br>";
 echo "<b>O que é herança?</b>
       <p>É quando uma classe herda informações de outra classe"
 ;
+
+echo "<br><br>";
+
+echo "<b>O que são métodos mágicos?</b>
+      <p>São coisas que acontecem fora da nossa vista, quando os
+      metodos foram chamados automáticamente, depois que já foram 
+      criados, todos os métodos mágicos começam com o uso de dois
+      '_' (underline) no inicio, ou '__construction'."  
+;
+
+echo "<br><br>";
+
+echo "<b>O que são métodos construtores?</b>
+      <p>São métodos que são executados automaticamente quando a 
+      classe é instanciada, o método deve ter exatamente o mesmo
+      nome da classe."
+;
