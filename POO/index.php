@@ -91,3 +91,11 @@ echo "<b>Para que serve uma Interface?</b>
       sejam aplicados. A interface diz quais os métodos devem existir, qual
       o tipo de declaração deles e quais parametros devem receber."
 ;
+
+echo "<br><br>";
+
+echo "<b>O que é uma classe abstrata?</b>
+      <p>Semelhante a interface, nela definimos os métodos e definimos o 
+      que eles fazem, a diferença de uma classe comum é que um objeto nunca vai 
+      instanciar uma classe abstrata."
+;
