@@ -99,3 +99,10 @@ echo "<b>O que é uma classe abstrata?</b>
       que eles fazem, a diferença de uma classe comum é que um objeto nunca vai 
       instanciar uma classe abstrata."
 ;
+
+echo "<br><br>";
+
+echo "<b>O que é polimorfismo?</b>
+      <p>Quando metodos com o mesmo nome em classes diferentes/herdadas tem 
+      comportamentos diferentes "
+;
