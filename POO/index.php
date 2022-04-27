@@ -73,3 +73,11 @@ echo "<b>O que são métodos construtores?</b>
       classe é instanciada, o método deve ter exatamente o mesmo
       nome da classe."
 ;
+
+echo "<br><br>";
+
+echo "<b>Quem pode acessar atributos e metodos?</b>
+      <p>A própria classe, classes extendidas [herdeiras] e objetos. 
+      Quando é público, todo mundo vê. Quando é protegido, só se ve na
+      propria classe ou nas herdeiras. Quando é privado, só se ve na 
+      pripria classe."

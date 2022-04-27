@@ -30,9 +30,9 @@ class Endereco{
     private $cidade;
 
     public function __construct($a, $b, $c){ //método magico
-        $this-> logradouro = $a;
-        $this-> numero = $b;
-        $this-> cidade = $c;
+        $this->logradouro = $a;
+        $this->numero = $b;
+        $this->cidade = $c;
     }
 
     public function __destruct(){
