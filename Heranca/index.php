@@ -3,7 +3,6 @@
 //NÃO SE USA <BR>, ESTOU USANDO AQUI PARA FINS EDUCACIONAIS
 
 echo "HERANÇA";
-//é um estilo de programação 
 
 echo "<br><b>Classes primárias e secundarias</b>";
 //ABSTRAÇÃO --> fazer classes genericas que podem conter atributos correspondentes a outras classes
