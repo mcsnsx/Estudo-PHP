@@ -2,7 +2,7 @@
 
 //NÃO SE USA <BR>, ESTOU USANDO AQUI PARA FINS EDUCACIONAIS
 
-echo "CONEXÃO - SQL Server";
+echo "MySQL - Inserindo Dados";
 //Padrão de comandos para interagir com o banco de dados
 
 echo "<br><br>";
