@@ -30,10 +30,21 @@ $search = Usuario::search("jo");
 echo json_encode($search);
 */
 
-
+/*
 //CARREGA UM USUARIO USANDO O LOGIN E A SENHA 
 $usuario = new Usuario();
 $usuario->login("root", "!@#$");
 echo $usuario;
+*/
+
+//INSERE UM USUARIO NOVO
+$aluno = new Usuario("aluno", "@lun0");
+//as proximas duas linhas fazem exatamente o mesmo que a linha de cima
+//$aluno -> setDeslogin("aluno"); 
+//$aluno -> setDessenha("@lun0");
+
+$aluno->insert();
+
+echo $aluno;
 
 ?>
