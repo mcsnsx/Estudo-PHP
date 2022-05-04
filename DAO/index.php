@@ -45,12 +45,18 @@ require_once("config.php");
     echo $aluno;
 */
 
-//ALTERANDO DADOS DE USUARIO
+/*
+    //ALTERANDO DADOS DE USUARIO
+    $usuario = new Usuario();
+    $usuario->loadById(8);
+    $usuario->update("professor", "!#$%¨&*");
+    echo $usuario;
+*/
+
+//EXCLUINDO UM USUARIO
 $usuario = new Usuario();
-$usuario->loadById(8);
-$usuario->update("professor", "!#$%¨&*");
+$usuario->loadById(7);
+$usuario->delete();
 echo $usuario;
-
-
 
 ?>
